@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Actitime Test Suite">
+
+
+<listeners>
+		<listener class-name="com.actitime.qa.extentreportlistener.ExtentReporterNG" />
+	</listeners>
+    <test verbose="2" name="LogonPageTest">
+        <classes>
+            <class name="com.actitime.qa.testcases.LogonPageTest">
+            </class>
+
+        </classes>
+    </test>
+    <test verbose="2" name="HomePageTest">
+        <classes>
+            <class name="com.actitime.qa.testcases.HomePageTest">
+            </class>
+
+        </classes>
+    </test>
+    <test verbose="2" name="ReportsPageTest">
+        <classes>
+            <class name="com.actitime.qa.testcases.ReportsPageTest">
+            </class>
+
+        </classes>
+    </test>
+    <test verbose="2" name="TimeTrackPageTest">
+        <classes>
+            <class name="com.actitime.qa.testcases.TimeTrackPageTest">
+            </class>
+
+        </classes>
+    </test>
+    <test verbose="2" name="UserPageTest">
+        <classes>
+            <class name="com.actitime.qa.testcases.UserPageTest">
+            </class>
+
+        </classes>
+    </test>
+   <test name = "Actitime Test Suite">
+     <!-- <classes>
+         <class name = "com.actitime.qa.testcases.LogonPageTest" />
+          <class name = "com.actitime.qa.testcases.HomePageTest" />
+          <class name = "com.actitime.qa.testcases.ReportsPageTest" />
+          <class name = "com.actitime.qa.testcases.TimeTrackPageTest" />
+          <class name = "com.actitime.qa.testcases.UserPageTest" />
+      </classes>-->
+   </test>
+
+</suite>
